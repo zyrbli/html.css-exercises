@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+}        
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+.header_tags {
+    text-align: justify;
+}
+
+.header_tags > h1 {
+    color: blue;
+}
+
+.header_tags > h2 {
+    color: red;
+}
+
+.note {
+    font-weight: bold;
+}
+
+header {
+    color: green;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.p_tag {
+    text-align: justify;
+}
+
+.p_tag > h1 {
+    color: blue;
+}
+
+.p_tag > h2 {
+    color: red;
+}
