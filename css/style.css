@@ -42,3 +42,8 @@ header {
 .p_tag > h2 {
     color: red;
 }
+
+.p_tag > p > span {
+    font-weight: bold;
+    font-style: italic;
+}
