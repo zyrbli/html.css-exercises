@@ -16,6 +16,10 @@ img {
     padding: 25px 50px;
 }
 
+.sub_menu {
+    font-size: larger;
+}
+
 a:link {
     color: green;
     text-decoration: none;
