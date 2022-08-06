@@ -1,6 +1,42 @@
 body {
-    text-align: center;
-}        
+    text-align: center;    
+}  
+
+img {
+    width: 35%;
+}
+
+.enjoy {                
+    display: inline-block;
+    color: red;
+    border-style: double;
+    border-color: red;
+    border-width: .25px;
+    border-radius: 35px; 
+    padding: 25px 50px;
+}
+
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: goldenrod;
+    border-color: goldenrod;    
+    border-style: double;    
+    border-left: none;
+    border-right: none;
+    border-width: .25px;
+}
+
+a:active {
+    color: aqua;
+}
 
 li {
     display: inline-block;
@@ -46,4 +82,55 @@ header {
 .p_tag > p > span {
     font-weight: bold;
     font-style: italic;
+}
+
+.line_break_tag {
+    text-align: justify;
+}
+
+.line_break_tag > h1 {
+    color: blue;
+}
+
+.line_break_tag > h2 {
+    color: red;
+}
+
+.horizontal_rule_tag {
+    text-align: justify;
+}
+
+.horizontal_rule_tag > h1 {
+    color: blue;
+}
+
+.horizontal_rule_tag > h2 {
+    color: red;
+}
+
+.comment_tag {
+    text-align: justify;
+}
+
+.comment_tag > h1 {
+    color: blue;
+}
+
+.comment_tag > h2 {
+    color: red;
+}
+
+body::after {
+    content: "";
+    background-image: url(https://i.ibb.co/gwSM8CW/webdev.png);
+    opacity: 0.05;;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;  
 }
