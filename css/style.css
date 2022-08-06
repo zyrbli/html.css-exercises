@@ -83,6 +83,9 @@ header {
     font-weight: bold;
     font-style: italic;
 }
+.samples_p_tags > p {
+    text-align: justify;
+}
 
 .line_break_tag {
     text-align: justify;
@@ -94,6 +97,10 @@ header {
 
 .line_break_tag > h2 {
     color: red;
+}
+
+.sample_line_break_tag > p {
+    text-align: justify;
 }
 
 .horizontal_rule_tag {
