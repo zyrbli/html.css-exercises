@@ -20,6 +20,10 @@ img {
     font-size: larger;
 }
 
+nav {
+    display: list-item;
+}
+
 a:link {
     color: green;
     text-decoration: none;
